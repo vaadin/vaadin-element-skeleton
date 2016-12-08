@@ -1,0 +1,33 @@
+{
+  "name": "vaadin-component-skeleton",
+  "version": "0.1.0",
+  "homepage": "https://vaadin.com/elements",
+  "authors": [
+    "Vaadin Ltd"
+  ],
+  "description": "<component-description>",
+  "main": "<component-name>.html",
+  "keywords": [
+    "Vaadin",
+    "<component-related-keywords>",
+    "web-components",
+    "web-component",
+    "polymer"
+  ],
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "gulpfile.js",
+    "package.json",
+    "wct.conf.js"
+  ],
+  "devDependencies": {
+    "web-component-tester": "^5.0.0"
+  },
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.4"
+  }
+}
