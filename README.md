@@ -1,7 +1,12 @@
 [![Build Status](https://travis-ci.org/vaadin/vaadin-component-skeleton.svg?branch=master)](https://travis-ci.org/vaadin/vaadin-component-skeleton)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vaadin/vaadin-core-elements?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-# &lt;vaadin-component-skeleton&gt;
+# &lt;vaadin-component&gt;
+
+
+[&lt;vaadin-component&gt;](https://vaadin.com/elements/-/element/vaadin-component) is a [Polymer](http://polymer-project.org) element providing &lt;component-functionality&gt;, part of the [Vaadin Core Elements](https://vaadin.com/elements).
+
+[<img src="https://raw.githubusercontent.com/vaadin/vaadin-component-skeleton/master/screenshot.png" width="200" alt="Screenshot of vaadin-component">](https://vaadin.com/elements/-/element/vaadin-component)
 
 
 ## Contributing
