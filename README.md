@@ -4,13 +4,6 @@
 # &lt;vaadin-component-skeleton&gt;
 
 
-## Running tests
-
-```sh
-npm test
-```
-
-
 ## Contributing
 
 1. Fork the <component-name> repository.
@@ -36,7 +29,7 @@ npm test
 
 1. Install [web-component-tester](https://www.npmjs.com/package/web-component-tester): `npm install -g web-component-tester`
 
-1. When in the <component-name> directory, run `wct`, browser will automatically open the component API documentation.
+1. When in the <component-name> directory, run `wct` or `npm test`, browser will automatically open the component API documentation.
 
 
 ## Following the coding style
