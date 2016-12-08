@@ -25,7 +25,7 @@
   - http://127.0.0.1:8080/components/vaadin-date-picker/test
 
 
-## Running tests from the command License
+## Running tests from the command line
 
 1. Install [web-component-tester](https://www.npmjs.com/package/web-component-tester): `npm install -g web-component-tester`
 
