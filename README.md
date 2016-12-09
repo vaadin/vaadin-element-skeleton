@@ -3,6 +3,7 @@
 
 # &lt;vaadin-component&gt;
 
+### [Live demo](https://cdn.vaadin.com/vaadin-core-elements/master/<vaadin-component>/demo/)
 
 [&lt;vaadin-component&gt;](https://vaadin.com/elements/-/element/vaadin-component) is a [Polymer](http://polymer-project.org) element providing &lt;component-functionality&gt;, part of the [Vaadin Core Elements](https://vaadin.com/elements).
 
