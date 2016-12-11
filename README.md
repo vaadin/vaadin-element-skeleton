@@ -1,3 +1,4 @@
+![Bower version](https://img.shields.io/bower/v/vaadin-component-skeleton.svg)
 [![Build Status](https://travis-ci.org/vaadin/vaadin-component-skeleton.svg?branch=master)](https://travis-ci.org/vaadin/vaadin-component-skeleton)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vaadin/vaadin-core-elements?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
