@@ -7,6 +7,12 @@
 
 [&lt;vaadin-component&gt;](https://vaadin.com/elements/-/element/vaadin-component) is a [Polymer](http://polymer-project.org) element providing &lt;component-functionality&gt;, part of the [Vaadin Core Elements](https://vaadin.com/elements).
 
+```html
+<vaadin-component>
+  ...
+</vaadin-component>
+```
+
 [<img src="https://raw.githubusercontent.com/vaadin/vaadin-component-skeleton/master/screenshot.png" width="200" alt="Screenshot of vaadin-component">](https://vaadin.com/elements/-/element/vaadin-component)
 
 
