@@ -9,6 +9,16 @@
 
 [&lt;vaadin-element&gt;](https://vaadin.com/elements/-/element/vaadin-element) is a [Polymer](http://polymer-project.org) element providing &lt;element-functionality&gt;, part of the [Vaadin Core Elements](https://vaadin.com/elements).
 
+<!--
+```
+<custom-element-demo>
+  <template>
+    <link rel="import" href="vaadin-element.html">
+    <next-code-block></next-code-block>
+  </template>
+</custom-element-demo>
+```
+-->
 ```html
 <vaadin-element>
   ...
