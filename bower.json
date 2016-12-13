@@ -1,15 +1,15 @@
 {
-  "name": "vaadin-component-skeleton",
+  "name": "vaadin-element-skeleton",
   "version": "0.1.0",
   "homepage": "https://vaadin.com/elements",
   "authors": [
     "Vaadin Ltd"
   ],
-  "description": "<component-description>",
-  "main": "<component-name>.html",
+  "description": "<element-description>",
+  "main": "<element-name>.html",
   "keywords": [
     "Vaadin",
-    "<component-related-keywords>",
+    "<element-related-keywords>",
     "web-components",
     "web-component",
     "polymer"
