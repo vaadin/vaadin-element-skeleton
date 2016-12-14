@@ -30,7 +30,7 @@
 
 ## Contributing
 
-1. Clone the `vaadin-element` repository.
+1. Fork the `vaadin-element` repository and clone it locally.
 
 1. Make sure you have [npm](https://www.npmjs.com/) installed.
 
