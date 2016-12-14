@@ -30,18 +30,18 @@
 
 ## Contributing
 
-1. Fork the <element-name> repository.
+1. Clone the `vaadin-element` repository.
 
 1. Make sure you have [npm](https://www.npmjs.com/) installed.
 
-1. When in the <element-name> directory, run `npm install` to install dependencies.
+1. When in the `vaadin-element` directory, run `npm install` to install dependencies.
 
 
 ## Running demos and tests in browser
 
 1. Install [polyserve](https://www.npmjs.com/package/polyserve): `npm install -g polyserve`
 
-1. When in the <element-name> directory, run `polyserve --open`, browser will automatically open the component API documentation.
+1. When in the `vaadin-element` directory, run `polyserve --open`, browser will automatically open the component API documentation.
 
 1. You can also open demo or in-browser tests by adding **demo** or **test** to the URL, for example:
 
@@ -53,7 +53,7 @@
 
 1. Install [web-component-tester](https://www.npmjs.com/package/web-component-tester): `npm install -g web-component-tester`
 
-1. When in the <element-name> directory, run `wct` or `npm test`, browser will automatically open the component API documentation.
+1. When in the `vaadin-element` directory, run `wct` or `npm test`, browser will automatically open the component API documentation.
 
 
 ## Following the coding style
@@ -61,7 +61,14 @@
 We are using [ESLint](http://eslint.org/) for linting JavaScript code. You can check if your code is following our standards by running `gulp lint`, which will automatically lint all `.js` files as well as JavaScript snippets inside `.html` files.
 
 
+## Creating a pull request
+
+  - Make sure your code is compliant with our code linters: `gulp lint`
+  - Check that tests are passing: `npm test`
+  - [Submit a pull request](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github) with detailed title and description
+  - Wait for response from one of Vaadin Elements team members
+
+
 ## License
 
 Apache License 2.0
-
