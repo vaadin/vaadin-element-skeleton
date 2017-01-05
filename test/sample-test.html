@@ -16,9 +16,14 @@
 
   <script>
     describe('sample test', function() {
+      var element;
+
+      beforeEach(function() {
+        element = fixture('default');
+      });
 
       it('should pass', function() {
-        expect(true).to.be.true;
+        expect(element.tagName).to.be.equal('VAADIN-ELEMENT');
       });
 
     });
