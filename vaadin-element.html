@@ -1,0 +1,37 @@
+<!--
+@license
+Copyright (c) 2017 Vaadin Ltd.
+This program is available under Apache License Version 2.0, available at https://vaadin.com/license/
+-->
+
+<!--
+`<vaadin-element>` is a Polymer element for <element-functionality>.
+
+```html
+<vaadin-element>
+</vaadin-element>
+```
+
+@element vaadin-element
+@demo demo/index.html
+-->
+
+<link rel="import" href="../polymer/polymer.html">
+
+<dom-module id="vaadin-element">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'vaadin-element'
+
+    });
+  </script>
+</dom-module>
