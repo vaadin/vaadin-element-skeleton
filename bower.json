@@ -24,7 +24,8 @@
     "wct.conf.js"
   ],
   "devDependencies": {
-    "web-component-tester": "^5.0.0"
+    "web-component-tester": "^5.0.0",
+    "elements-demo-resources": "vaadin/elements-demo-resources#master"
   },
   "dependencies": {
     "polymer": "Polymer/polymer#^1.2.4"
