@@ -1,11 +1,11 @@
 {
-  "name": "vaadin-element-skeleton",
+  "name": "vaadin-element",
   "homepage": "https://vaadin.com/elements",
   "authors": [
     "Vaadin Ltd"
   ],
-  "description": "<element-description>",
-  "main": "<element-name>.html",
+  "description": "vaadin-element",
+  "main": "vaadin-element.html",
   "keywords": [
     "Vaadin",
     "<element-related-keywords>",
@@ -25,7 +25,9 @@
   ],
   "devDependencies": {
     "web-component-tester": "^5.0.0",
-    "elements-demo-resources": "vaadin/elements-demo-resources#master"
+    "elements-demo-resources": "vaadin/elements-demo-resources#master",
+    "iron-component-page": "polymerelements/iron-component-page#^1.1.0",
+    "iron-demo-helpers": "polymerelements/iron-demo-helpers#^1.0.0"
   },
   "dependencies": {
     "polymer": "Polymer/polymer#^1.2.4"
