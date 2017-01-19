@@ -1,11 +1,11 @@
 {
-  "name": "vaadin-element-skeleton",
+  "name": "vaadin-element",
   "homepage": "https://vaadin.com/elements",
   "authors": [
     "Vaadin Ltd"
   ],
-  "description": "<element-description>",
-  "main": "<element-name>.html",
+  "description": "vaadin-element",
+  "main": "vaadin-element.html",
   "keywords": [
     "Vaadin",
     "<element-related-keywords>",
