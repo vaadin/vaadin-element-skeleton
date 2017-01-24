@@ -13,9 +13,10 @@
     WCT._config.environmentScripts.push('webcomponentsjs/webcomponents.js');
 
     WCT.loadSuites([
-      'sample-test.html',
-      'sample-test.html?dom=shadow'
-    ]);
+      'sample-test.html'
+    ].reduce(function(suites, suite) {
+      return suites.concat([suite, suite + '?dom=shadow']);
+    }, []));
   </script>
 </body>
 
