@@ -4,7 +4,7 @@
 
         git clone https://github.com/vaadin/vaadin-element-skeleton.git new-element-name
 
-2. When in the `vaadin-element` folder, replace all `vaadin-element-skeleton` ocurences with the `new-element-name`
+2. When in the `new-element-name` folder, replace all `vaadin-element` and `VaadinElement` ocurrences with your new element name.
 
         perl -pi -e 's,vaadin-element,new-element-name,g' *.* demo/* test/*
         perl -pi -e 's,VaadinElement,NewVaadinElementName,g' *.* demo/* test/*
