@@ -5,7 +5,7 @@ This program is available under Apache License Version 2.0, available at https:/
 -->
 
 <!--
-`<vaadin-element>` is a Polymer element for <element-functionality>.
+`<vaadin-element>` is a Polymer element.
 
 ```html
 <vaadin-element>
@@ -28,10 +28,19 @@ This program is available under Apache License Version 2.0, available at https:/
   </template>
 
   <script>
-    Polymer({
+    class VaadinElement extends Polymer.Element {
+      static get is() {
+        return 'vaadin-element';
+      }
 
-      is: 'vaadin-element'
+      static get config() {
+        return {
+          properties: {
+          }
+        };
+      }
+    }
 
-    });
+    customElements.define(VaadinElement.is, VaadinElement);
   </script>
 </dom-module>

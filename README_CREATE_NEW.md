@@ -7,6 +7,7 @@
 2. When in the `vaadin-element` folder, replace all `vaadin-element-skeleton` ocurences with the `new-element-name`
 
         perl -pi -e 's,vaadin-element,new-element-name,g' *.* demo/* test/*
+        perl -pi -e 's,VaadinElement,NewVaadinElementName,g' *.* demo/* test/*
 
 3. Rename the element
 
