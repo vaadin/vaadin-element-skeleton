@@ -18,11 +18,9 @@
   },
   "homepage": "https://vaadin.com/elements",
   "scripts": {
-    "test": "wct",
-    "postinstall": "node_modules/.bin/bower install"
+    "test": "wct"
   },
   "devDependencies": {
-    "bower": "latest",
     "gulp": "latest",
     "gulp-html-extract": "^0.0.3",
     "gulp-eslint": "^3.0.1",
