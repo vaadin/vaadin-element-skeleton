@@ -21,6 +21,9 @@
     "test": "wct"
   },
   "devDependencies": {
+    "gemini": "^4.17.1",
+    "gemini-express": "^1.0.0",
+    "gemini-sauce": "^1.0.0",
     "gulp": "latest",
     "gulp-html-extract": "^0.0.3",
     "gulp-eslint": "^3.0.1",
