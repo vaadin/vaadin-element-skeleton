@@ -2,7 +2,7 @@
 
 1. Clone this repo
 
-        git clone https://github.com/vaadin/vaadin-element-skeleton.git new-element-name
+        git clone git@github.com:vaadin/vaadin-element-skeleton.git new-element-name
 
 2. When in the `new-element-name` folder, replace all `vaadin-element` and `VaadinElement` ocurrences with your new element name.
 
