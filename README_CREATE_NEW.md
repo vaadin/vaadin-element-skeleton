@@ -19,9 +19,10 @@
         polyserve
 
   And check that everything works:
-        http://localhost:8080/components/new-element-name/index.html
-        http://localhost:8080/components/new-element-name/demo/index.html
-        http://localhost:8080/components/new-element-name/test/index.html
+  
+  - http://localhost:8080/components/new-element-name/index.html
+  - http://localhost:8080/components/new-element-name/demo/index.html
+  - http://localhost:8080/components/new-element-name/test/index.html
 
 5. Remove this README file sinde it is not needed any more.
 
