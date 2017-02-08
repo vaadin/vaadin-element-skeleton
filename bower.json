@@ -31,7 +31,8 @@
     "iron-demo-helpers": "polymerelements/iron-demo-helpers#2.0-preview"
   },
   "resolutions": {
-    "test-fixture": "^2.0.0"
+    "test-fixture": "^2.0.0",
+    "custom-elements": "remove-mo"
   },
   "dependencies": {
     "polymer": "Polymer/polymer#2.0-preview"
