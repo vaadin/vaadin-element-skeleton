@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "gemini": "^4.17.1",
-    "gemini-express": "^1.0.0",
+    "gemini-polyserve": "^1.0.0",
     "gemini-sauce": "^1.0.0",
     "lighthouse": "~1.2.2",
     "polyserve": "^0.15.0",

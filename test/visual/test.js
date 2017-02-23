@@ -1,14 +1,15 @@
 gemini.suite('vaadin-element', function(rootSuite) {
 
-  rootSuite.setUrl('/');
-
-  gemini.suite('button', function(suite) {
+  gemini.suite('default-tests', function(suite) {
     suite
-      .setCaptureElements('#visual-tests')
+      .setUrl('/default.html')
+      .setCaptureElements('#default-tests')
       .before(function(actions, find) {
         this.button = find('button');
       })
-      .capture('normal-button')
+      .capture('normal-button', {}, function(actions, find) {
+        actions.wait(3000);
+      })
       .capture('clicked-button', function(actions) {
         actions.mouseDown(this.button);
       });
