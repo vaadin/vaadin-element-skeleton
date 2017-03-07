@@ -6,7 +6,7 @@
   "repository": "vaadin/vaadin-element",
   "keywords": [
     "Vaadin",
-    "<element-related-keywords>",
+    "vaadin-element",
     "web-components",
     "web-component",
     "polymer"
