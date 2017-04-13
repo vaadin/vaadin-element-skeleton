@@ -21,6 +21,12 @@ browsers:
       version: "47.0"
       platform: "Windows 10"
 
+  ie:
+    desiredCapabilities:
+      browserName: "internet explorer"
+      version: "11.0"
+      platform: "Windows 10"
+
   edge:
     desiredCapabilities:
       browserName: "microsoftedge"
