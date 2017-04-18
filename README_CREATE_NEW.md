@@ -33,5 +33,5 @@
         rm -rf .git
         git init
         git add * .??*
-        git commit -m 'Fisrt Commit' -a
+        git commit -m 'First Commit' -a
 
