@@ -18,13 +18,7 @@ gemini.suite('vaadin-element', function(rootSuite) {
     suite
       .setUrl('/default.html')
       .setCaptureElements('#default-tests')
-      .before(function(actions, find) {
-        this.button = find('button');
-      })
-      .capture('normal-button')
-      .capture('clicked-button', function(actions) {
-        actions.mouseDown(this.button);
-      });
+      .capture('normal-button');
   });
 
 });
