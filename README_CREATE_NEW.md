@@ -16,6 +16,7 @@
 4. Check that everything works all right
 
         npm install
+        bower install
         polyserve
 
   And check that everything works:
