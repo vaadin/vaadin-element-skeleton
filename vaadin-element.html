@@ -4,18 +4,6 @@ Copyright (c) 2017 Vaadin Ltd.
 This program is available under Apache License Version 2.0, available at https://vaadin.com/license/
 -->
 
-<!--
-`<vaadin-element>` is a Polymer 2 element.
-
-```html
-<vaadin-element>
-</vaadin-element>
-```
-
-@element vaadin-element
-@demo demo/index.html
--->
-
 <link rel="import" href="../polymer/polymer-element.html">
 
 <dom-module id="vaadin-element">
@@ -33,17 +21,36 @@ This program is available under Apache License Version 2.0, available at https:/
       throw new Error(`Unexpected Polymer version ${Polymer.version} is used, expected v2.0.0 or later.`);
     }
 
-    class VaadinElement extends Polymer.Element {
-      static get is() {
-        return 'vaadin-element';
+    {
+
+      /**
+       * `<vaadin-element>` is a Polymer 2 element.
+       *
+       * ```
+       * <vaadin-element></vaadin-element>
+       * ```
+       *
+       * @memberof Vaadin
+       * @demo demo/index.html
+       */
+      class VaadinElement extends Polymer.Element {
+        static get is() {
+          return 'vaadin-element';
+        }
+
+        static get properties() {
+          return {
+          };
+        }
       }
 
-      static get properties() {
-        return {
-        };
-      }
+      customElements.define(VaadinElement.is, VaadinElement);
+
+      /**
+       * @namespace Vaadin
+       */
+      window.Vaadin = window.Vaadin || {};
+      Vaadin.VaadinElement = VaadinElement;
     }
-
-    customElements.define(VaadinElement.is, VaadinElement);
   </script>
 </dom-module>
