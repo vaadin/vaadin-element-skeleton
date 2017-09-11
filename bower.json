@@ -36,5 +36,6 @@
   },
   "resolutions": {
     "vaadin-themable-mixin": "propagate-theme"
+    "web-component-tester": "^6.1.5"
   }
 }
