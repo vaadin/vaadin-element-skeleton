@@ -11,7 +11,9 @@
   </template>
   <script>
     class ElementAdvancedDemos extends DemoReadyEventEmitter(ElementDemo(Polymer.Element)) {
-      static get is() { return 'element-advanced-demos'; }
+      static get is() {
+        return 'element-advanced-demos';
+      }
     }
     customElements.define(ElementAdvancedDemos.is, ElementAdvancedDemos);
   </script>

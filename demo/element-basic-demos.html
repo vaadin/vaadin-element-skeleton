@@ -18,7 +18,9 @@
   </template>
   <script>
     class ElementBasicDemos extends DemoReadyEventEmitter(ElementDemo(Polymer.Element)) {
-      static get is() { return 'element-basic-demos'; }
+      static get is() {
+        return 'element-basic-demos';
+      }
     }
     customElements.define(ElementBasicDemos.is, ElementBasicDemos);
   </script>
