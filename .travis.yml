@@ -34,7 +34,7 @@ script:
         xvfb-run -s '-screen 0 1024x768x24' polymer test --env saucelabs;
       fi;
     fi
-  - if [ "$TRAVIS_EVENT_TYPE" = "cron"]; then
+  - if [[ "$TRAVIS_EVENT_TYPE" = "cron" ]]; then
       if [[ "$TEST_SUITE" = "visual_tests" ]]; then
         xvfb-run -s '-screen 0 1024x768x24' polymer test --env saucelabs-cron;
       fi;
