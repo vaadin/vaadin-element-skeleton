@@ -29,7 +29,7 @@ script:
       if [[ "$TEST_SUITE" = "visual_tests" ]]; then
         npm i --no-save gemini@^4.0.0 gemini-sauce gemini-polyserve &&
         gemini test test/visual;
-      fi;
+      fi &&
       if [[ "$TEST_SUITE" = "unit_tests" ]]; then
         xvfb-run -s '-screen 0 1024x768x24' polymer test --env saucelabs;
       fi;
