@@ -30,7 +30,7 @@
     "gulp-html-extract": "^0.3.0",
     "gulp-stylelint": "^6.0.0",
     "polymer-cli": "^1.6.0",
-    "stylelint": "^8.0.0",
+    "stylelint": "^9.0.0",
     "stylelint-config-vaadin": "latest",
     "web-component-tester": "^6.1.5",
     "yargs": "^8.0.0"
