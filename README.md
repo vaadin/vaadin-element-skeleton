@@ -5,12 +5,12 @@
 
 # &lt;vaadin-element&gt;
 
-[Live Demo ↗](https://cdn.vaadin.com/vaadin-core-elements/master/vaadin-element/demo/)
+[Live Demo ↗](https://vaadin.com/components/vaadin-element/html-examples)
 |
-[API documentation ↗](https://cdn.vaadin.com/vaadin-core-elements/master/vaadin-element/)
+[API documentation ↗](https://vaadin.com/components/vaadin-element/html-api)
 
 
-[&lt;vaadin-element&gt;](https://vaadin.com/elements/-/element/vaadin-element) is a [Polymer 2](http://polymer-project.org) element providing &lt;element-functionality&gt;, part of the [Vaadin Core Elements](https://vaadin.com/elements).
+[&lt;vaadin-element&gt;](https://vaadin.com/components/vaadin-element) is a [Polymer 2](http://polymer-project.org) element providing &lt;element-functionality&gt;, part of the [Vaadin components](https://vaadin.com/components).
 
 <!--
 ```
@@ -29,26 +29,26 @@
 </vaadin-element>
 ```
 
-[<img src="https://raw.githubusercontent.com/vaadin/vaadin-element/master/screenshot.png" width="200" alt="Screenshot of vaadin-element">](https://vaadin.com/elements/-/element/vaadin-element)
+[<img src="https://raw.githubusercontent.com/vaadin/vaadin-element/master/screenshot.png" width="200" alt="Screenshot of vaadin-element">](https://vaadin.com/components/vaadin-element)
 
 
 ## Getting Started
 
-Vaadin Elements use the Lumo theme by default.
+Vaadin components use the Lumo theme by default.
 
-## The file structure for Vaadin Elements
+## The file structure for Vaadin components
 
-- `src/element-name.html`
+- `src/component-name.html`
 
-  Unstyled element.
+  Unstyled component.
 
-- `theme/lumo/element-name.html`
+- `theme/lumo/component-name.html`
 
-  Element with Lumo theme.
+  Component with Lumo theme.
 
-- `element-name.html`
+- `component-name.html`
 
-  Alias for theme/lumo/element-name.html
+  Alias for theme/lumo/component-name.html
 
 
 ## Running demos and tests in browser
@@ -82,7 +82,7 @@ We are using [ESLint](http://eslint.org/) for linting JavaScript code. You can c
   - Make sure your code is compliant with our code linters: `gulp lint`
   - Check that tests are passing: `polymer test`
   - [Submit a pull request](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github) with detailed title and description
-  - Wait for response from one of Vaadin Elements team members
+  - Wait for response from one of Vaadin components team members
 
 
 ## License
