@@ -1,4 +1,4 @@
-var argv = require('yargs').argv;
+var argv = require('./tools/node_modules/yargs').argv;
 
 module.exports = {
   registerHooks: function(context) {

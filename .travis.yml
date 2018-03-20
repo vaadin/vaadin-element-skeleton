@@ -13,12 +13,13 @@ addons:
 
 install:
   - npm install
-  - bower install
+  - cd tools && npm install && cd ../
+  - ./tools/node_modules/.bin/bower install
 
 before_script:
-  - gulp lint
-  - polymer lint --rules polymer-2 --input ./src/*.html ./theme/**/*.html
-  - xvfb-run -s '-screen 0 1024x768x24' wct
+  - cd tools && ./node_modules/.bin/gulp lint && cd ../
+  - ./tools/node_modules/.bin/polymer lint --rules polymer-2 --input ./src/*.html ./theme/**/*.html
+  - xvfb-run -s '-screen 0 1024x768x24' ./tools/node_modules/.bin/wct
 
 env:
   - TEST_SUITE=visual_tests
@@ -31,11 +32,11 @@ script:
         gemini test test/visual;
       fi &&
       if [[ "$TEST_SUITE" = "unit_tests" ]]; then
-        wct --env saucelabs;
+        ./tools/node_modules/.bin/wct --env saucelabs;
       fi;
     fi
   - if [[ "$TRAVIS_EVENT_TYPE" = "cron" ]]; then
       if [[ "$TEST_SUITE" = "visual_tests" ]]; then
-        wct --env saucelabs-cron;
+        ./tools/node_modules/.bin/wct --env saucelabs-cron;
       fi;
     fi
