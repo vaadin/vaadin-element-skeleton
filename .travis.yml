@@ -29,10 +29,11 @@ script:
       fi;
       if [[ "$POLYMER" = "3" ]]; then
         npm install -g yarn magi-cli;
-        (cd .. && git clone --depth 1 -b chore/update-pre-12-rename git://github.com/web-padawan/polymer-modulizer.git && cd polymer-modulizer && npm link);
+        (cd .. && git clone --depth 1 -b vaadin-components git://github.com/web-padawan/polymer-modulizer.git && cd polymer-modulizer && npm link);
+        rm -rf node_modules;
         magi p3-convert --out .;
         yarn install --flat;
-        polymer test --npm --env saucelabs-p3;
+        polymer test --module-resolution=node --npm --env saucelabs-p3;
       fi;
     fi
   - if [[ "$TRAVIS_EVENT_TYPE" = "cron" ]]; then
