@@ -15,14 +15,14 @@ module.exports = {
     var saucelabsPlatformsP3 = [
       'macOS 10.12/iphone@11.2',
       'macOS 10.12/ipad@11.2',
-      'Windows 10/chrome@63',
+      'Windows 10/chrome@65',
       'macOS 10.12/safari@11.0'
     ];
 
     var cronPlatforms = [
       'Android/chrome',
-      'Windows 10/chrome@59',
-      'Windows 10/firefox@54'
+      'Windows 10/chrome@65',
+      'Windows 10/firefox@59'
     ];
 
     if (env === 'saucelabs') {
