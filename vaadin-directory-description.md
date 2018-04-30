@@ -1,4 +1,5 @@
 [![Available in Vaadin_Directory](https://img.shields.io/vaadin-directory/v/vaadinvaadin-element.svg)](https://vaadin.com/directory/component/vaadinvaadin-element)
+[![Stars in Vaadin_Directory](https://img.shields.io/vaadin-directory/stars/vaadinvaadin-element.svg)](https://vaadin.com/directory/component/vaadinvaadin-element)
 
 # &lt;vaadin-element&gt;
 
