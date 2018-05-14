@@ -35,7 +35,7 @@ script:
       fi;
     fi
   - if [[ "$TRAVIS_EVENT_TYPE" = "cron" ]]; then
-      if [[ "$TEST_SUITE" = "visual_tests" ]]; then
+      if [[ "$TEST_SUITE" = "unit_tests" ]]; then
         wct --env saucelabs-cron;
       fi;
     fi
