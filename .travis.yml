@@ -1,7 +1,9 @@
 sudo: true
 dist: trusty
 language: node_js
-node_js: 8.9
+node_js:
+- 8.9
+- 10
 
 cache:
   directories:
