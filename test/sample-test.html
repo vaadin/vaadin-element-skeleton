@@ -30,6 +30,10 @@
         expect(window.VaadinElement).not.to.be.ok;
       });
 
+      it('should have a valid version number', function() {
+        expect(customElements.get('vaadin-element').version).to.match(/^(\d+\.)?(\d+\.)?(\*|\d+)$/);
+      });
+
     });
   </script>
 </body>
