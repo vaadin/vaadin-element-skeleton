@@ -3,11 +3,31 @@ var env = envIndex ? process.argv[envIndex] : undefined;
 
 module.exports = {
   testTimeout: 180 * 1000,
-  verbose: true,
+  verbose: false,
+  // MAGI REMOVE START
+  plugins: {
+    istanbul: {
+      dir: './coverage',
+      reporters: ['text-summary', 'lcov'],
+      include: [
+        '**/vaadin-element/src/*.html'
+      ],
+      exclude: [],
+      thresholds: {
+        global: {
+          statements: 100
+        }
+      }
+    }
+  },
+  // MAGI REMOVE END
+
   registerHooks: function(context) {
     const saucelabsPlatformsMobile = [
       'macOS 10.12/iphone@10.3',
-      'macOS 10.12/ipad@11.2',
+      'Windows 10/microsoftedge@15',
+      'Windows 10/internet explorer@11',
+      'macOS 10.12/safari@11.0',
       'macOS 9.3.2/iphone@9.3'
     ];
 
@@ -30,8 +50,9 @@ module.exports = {
 
     const cronPlatforms = [
       'Android/chrome',
-      'Windows 10/chrome@65',
-      'Windows 10/firefox@59'
+      'macOS 10.12/ipad@11.0',
+      'Windows 10/chrome@59',
+      'Windows 10/firefox@54'
     ];
 
     if (env === 'saucelabs') {
