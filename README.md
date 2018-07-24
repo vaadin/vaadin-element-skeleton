@@ -73,29 +73,25 @@ Once installed, import it in your application:
 import '@vaadin/vaadin-element/vaadin-element.js';
 ```
 
-## Getting Started
+## Getting started
 
 Vaadin components use the Lumo theme by default.
 
-To use Material theme, import the correspondent file from `material` folder.
+To use the Material theme, import the correspondent file from `material` folder.
 
-## The file structure for Vaadin components
+## Entry points
 
-- `src/component-name.html`
-
-  Unstyled component.
+  The component with the Lumo theme:
 
 - `theme/lumo/component-name.html`
 
-  Component with Lumo theme.
+  The component with the Material theme:
 
 - `theme/material/component-name.html`
 
-  Component with Material theme.
+  Alias for `theme/lumo/component-name.html`:
 
 - `component-name.html`
-
-  Alias for theme/lumo/component-name.html
 
 
 ## Running demos and tests in browser
