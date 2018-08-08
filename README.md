@@ -1,5 +1,5 @@
-[![npm version](https://badgen.net/npm/v/@vaadin/vaadin-element-skeleton)](https://www.npmjs.com/package/@vaadin/vaadin-element-skeleton)
-[![Bower version](https://badgen.net/github/release/vaadin/vaadin-element-skeleton)](https://github.com/vaadin/vaadin-element-skeleton/releases)
+[![npm version](https://badgen.net/npm/v/@vaadin/vaadin-element)](https://www.npmjs.com/package/@vaadin/vaadin-element)
+[![Bower version](https://badgen.net/github/release/vaadin/vaadin-element)](https://github.com/vaadin/vaadin-element/releases)
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/vaadin/vaadin-element)
 [![Build Status](https://travis-ci.org/vaadin/vaadin-element.svg?branch=master)](https://travis-ci.org/vaadin/vaadin-element)
 [![Coverage Status](https://coveralls.io/repos/github/vaadin/vaadin-element/badge.svg?branch=master)](https://coveralls.io/github/vaadin/vaadin-element?branch=master)
