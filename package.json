@@ -17,6 +17,11 @@
     "url": "https://github.com/vaadin/vaadin-element/issues"
   },
   "homepage": "https://vaadin.com/components",
+  "files": [
+    "vaadin-element.html",
+    "src",
+    "theme"
+  ],
   "scripts": {
     "test": "wct",
     "preversion": "gulp version:update"
