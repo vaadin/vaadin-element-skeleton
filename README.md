@@ -58,7 +58,7 @@ bower i vaadin/vaadin-element --save
 Once installed, import it in your application:
 
 ```html
-<link rel="import" href="bower_components/vaadin-button/vaadin-button.html">
+<link rel="import" href="bower_components/vaadin-element/vaadin-element.html">
 ```
 ### Polymer 3 and ES Modules compatible version
 
@@ -85,15 +85,15 @@ To use the Material theme, import the correspondent file from the `theme/materia
 
 - The component with the Lumo theme:
 
-  `theme/lumo/component-name.html`
+  `theme/lumo/vaadin-element.html`
 
 - The component with the Material theme:
 
-  `theme/material/component-name.html`
+  `theme/material/vaadin-element.html`
 
-- Alias for `theme/lumo/component-name.html`:
+- Alias for `theme/lumo/vaadin-element.html`:
 
-  `component-name.html`
+  `vaadin-element.html`
 
 
 ## Running demos and tests in browser
