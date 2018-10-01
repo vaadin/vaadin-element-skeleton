@@ -14,6 +14,7 @@
         mv vaadin-element.html new-element-name.html
         mv src/vaadin-element.html src/new-element-name.html
         mv theme/lumo/vaadin-element.html theme/lumo/new-element-name.html
+        mv theme/material/vaadin-element.html theme/material/new-element-name.html
 
 4. Check that everything works all right
 
@@ -22,7 +23,7 @@
         polyserve
 
   And check that everything works:
-  
+
   - http://localhost:8080/components/new-element-name/index.html
   - http://localhost:8080/components/new-element-name/demo/index.html
   - http://localhost:8080/components/new-element-name/test/index.html
