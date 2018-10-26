@@ -20,7 +20,7 @@
 
         npm install
         bower install
-        polyserve
+        polymer serve
 
   And check that everything works:
 
