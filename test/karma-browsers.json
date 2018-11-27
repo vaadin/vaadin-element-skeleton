@@ -1,0 +1,45 @@
+{
+  "chrome_headless": {
+    "base": "ChromeHeadless",
+    "flags": [
+      "--disable-gpu",
+      "--no-sandbox"
+    ]
+  },
+  "firefox_headless": {
+    "base": "Firefox",
+    "flags": [
+      "-headless"
+    ]
+  },
+  "sl_safari_11": {
+    "base": "SauceLabs",
+    "browserName": "safari",
+    "platform": "Mac 10.13",
+    "version": "11.1"
+  },
+  "sl_ios_9": {
+    "base": "SauceLabs",
+    "browserName": "iphone",
+    "platform": "OS X 10.11",
+    "version": "9.3"
+  },
+  "sl_ios_11": {
+    "base": "SauceLabs",
+    "browserName": "iphone",
+    "platform": "OS X 10.13",
+    "version": "11.2"
+  },
+  "sl_ie_11": {
+    "base": "SauceLabs",
+    "browserName": "internet explorer",
+    "platform": "Windows 8.1",
+    "version": "11"
+  },
+  "sl_edge_17": {
+    "base": "SauceLabs",
+    "browserName": "microsoftedge",
+    "platform": "Windows 10",
+    "version": "17"
+  }
+}

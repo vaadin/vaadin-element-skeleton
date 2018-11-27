@@ -11,5 +11,10 @@
   "globals": {
     "Polymer": false,
     "Vaadin": false
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018
   }
 }

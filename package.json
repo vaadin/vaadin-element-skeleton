@@ -2,7 +2,7 @@
   "name": "@vaadin/vaadin-element",
   "version": "0.1.0",
   "description": "vaadin-element",
-  "main": "vaadin-element.html",
+  "main": "vaadin-element.js",
   "repository": "vaadin/vaadin-element",
   "keywords": [
     "Vaadin",
@@ -23,12 +23,45 @@
     "theme"
   ],
   "scripts": {
-    "test": "wct",
+    "test": "cross-env BABEL_ENV=modern karma start",
+    "test:modern": "cross-env BABEL_ENV=modern TEST_PLATFORM=sauce karma start",
+    "test:legacy": "cross-env BABEL_ENV=legacy TEST_PLATFORM=sauce karma start",
     "prestart": "polymer analyze vaadin-* > analysis.json",
-    "start": "polymer serve --open",
+    "start": "polymer serve --npm --open",
     "preversion": "gulp version:update"
   },
+  "dependencies": {
+    "@polymer/lit-element": "^0.6.3"
+  },
   "devDependencies": {
-    "@vaadin/vaadin-component-dev-dependencies": "^1.0.0"
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@polymer/iron-component-page": "^4.0.1",
+    "@vaadin/vaadin-component-dev-dependencies": "^1.0.0",
+    "@vaadin/vaadin-demo-helpers": "^2.1.1",
+    "@webcomponents/webcomponentsjs": "^2.1.0",
+    "alias-regex-webpack-plugin": "^0.1.2",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.2",
+    "chai": "^4.2.0",
+    "cross-env": "^5.2.0",
+    "fast-async": "^6.3.8",
+    "istanbul-instrumenter-loader": "^3.0.1",
+    "karma": "^3.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage-istanbul-reporter": "^2.0.4",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-sauce-launcher": "^1.2.0",
+    "karma-sinon-chai": "^2.0.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "=4.0.0-rc.2",
+    "lit-html": "^0.13.0",
+    "mocha": "^5.2.0",
+    "polymer-webpack-loader": "^2.0.3",
+    "sinon": "^6.3.4",
+    "sinon-chai": "^3.2.0",
+    "webpack": "^4.20.2"
   }
 }
