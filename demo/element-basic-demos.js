@@ -16,8 +16,13 @@ class ElementBasicDemos extends DemoReadyEventEmitter(PolymerElement) {
       <h3>Sample example</h3>
       <vaadin-demo-snippet id="element-basic-demos-sample-example">
         <template preserve-content>
-          <vaadin-element>Foobar</vaadin-element>
-          <!-- TODO: make it work with script tags -->
+          <vaadin-element></vaadin-element>
+          <script>
+            window.addDemoReadyListener('#element-basic-demos-sample-example', function(document) {
+              const element = document.querySelector('vaadin-element');
+              element.textContent = 'Foobar';
+            });
+          </script>
         </template>
       </vaadin-demo-snippet>
     `;

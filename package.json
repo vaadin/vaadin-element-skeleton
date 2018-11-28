@@ -38,7 +38,7 @@
     "@babel/preset-env": "^7.1.0",
     "@polymer/iron-component-page": "^4.0.1",
     "@vaadin/vaadin-component-dev-dependencies": "^1.0.0",
-    "@vaadin/vaadin-demo-helpers": "^2.1.1",
+    "@vaadin/vaadin-demo-helpers": "vaadin/vaadin-demo-helpers#proto/next",
     "@webcomponents/webcomponentsjs": "^2.1.0",
     "alias-regex-webpack-plugin": "^0.1.2",
     "babel-eslint": "^10.0.1",
