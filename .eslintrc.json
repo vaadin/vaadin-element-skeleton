@@ -5,13 +5,6 @@
     "node": true,
     "es6": true
   },
-  "plugins": [
-    "html"
-  ],
-  "globals": {
-    "Polymer": false,
-    "Vaadin": false
-  },
   "parser": "babel-eslint",
   "parserOptions": {
     "sourceType": "module",

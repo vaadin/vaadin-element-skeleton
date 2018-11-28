@@ -8,9 +8,6 @@ const expect = require('gulp-expect-file');
 const grepContents = require('gulp-grep-contents');
 const clip = require('gulp-clip-empty-files');
 const git = require('gulp-git');
-const semver = require('semver');
-const fs = require('fs');
-const path = require('path');
 
 gulp.task('lint', ['lint:js']);
 
