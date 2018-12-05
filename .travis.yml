@@ -1,11 +1,7 @@
 sudo: false
-dist: trusty
+dist: xenial
 language: node_js
-node_js: node
-
-cache:
-  directories:
-    - node_modules
+node_js: lts/*
 
 addons:
   firefox: latest
