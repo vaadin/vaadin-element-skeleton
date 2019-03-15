@@ -1,3 +1,4 @@
+/* @polymerMixin */
 window.ElementDemo = superClass => {
   return class extends superClass {
     static get properties() {
