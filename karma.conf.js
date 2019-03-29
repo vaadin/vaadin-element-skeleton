@@ -69,7 +69,7 @@ module.exports = function(config) {
           {
             test: /\.js$/,
             loader: 'babel-loader',
-            exclude: /node_modules\/(?!(@webcomponents\/shadycss|lit-html|@polymer|@vaadin)\/).*/,
+            exclude: /node_modules\/(?!(@webcomponents\/shadycss|lit-html|lit-element|@polymer|@vaadin)\/).*/,
             options: {
               cacheDirectory: true
             }

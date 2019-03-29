@@ -1,9 +1,9 @@
 /**
 @license
-Copyright (c) 2018 Vaadin Ltd.
+Copyright (c) 2019 Vaadin Ltd.
 This program is available under Apache License Version 2.0, available at https://vaadin.com/license/
 */
-import {LitElement, html} from '@polymer/lit-element';
+import {LitElement, html, css} from 'lit-element';
 
 /**
  * `<vaadin-element>` is a Web Component.
@@ -28,17 +28,20 @@ class VaadinElement extends LitElement {
     };
   }
 
+  static get styles() {
+    return css`
+      :host {
+        display: inline-block;
+      }
+
+      :host([hidden]) {
+        display: none !important;
+      }
+    `;
+  }
+
   render() {
     return html`
-      <style>
-        :host {
-          display: inline-block;
-        }
-
-        :host([hidden]) {
-          display: none !important;
-        }
-      </style>
       <slot></slot>
     `;
   }
