@@ -44,6 +44,7 @@
     "@babel/plugin-transform-runtime": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
     "@babel/runtime": "^7.4.2",
+    "@open-wc/testing-helpers": "^0.8.2",
     "@polymer/iron-component-page": "^4.0.1",
     "@vaadin/vaadin-demo-helpers": "vaadin/vaadin-demo-helpers#proto/next",
     "@webcomponents/webcomponentsjs": "^2.2.7",
