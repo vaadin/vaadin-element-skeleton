@@ -23,19 +23,23 @@
     "theme"
   ],
   "scripts": {
+    "build": "tsc -p tsconfig.build.json",
     "lint": "npm-run-all --parallel lint:*",
     "lint:css": "stylelint *.js src/*.js demo/*.js theme/**/*.js test/*.js",
     "lint:js": "eslint *.js src demo theme test",
     "lint:polymer": "polymer lint --rules polymer-3 --input ./src/*.js ./theme/**/*.js",
+    "pretest": "npm run build",
     "test": "cross-env BABEL_ENV=modern karma start",
     "test:modern": "cross-env BABEL_ENV=modern TEST_PLATFORM=sauce karma start",
     "test:legacy": "cross-env BABEL_ENV=legacy TEST_PLATFORM=sauce karma start",
     "prestart": "polymer analyze vaadin-* > analysis.json",
-    "start": "polymer serve --npm --open",
+    "start": "npm run build -- --watch & polymer serve --npm --port 8080",
     "preversion": "gulp version:update",
     "version:check": "gulp version:check"
   },
   "dependencies": {
+    "@vaadin/vaadin-element-mixin": "^2.1.3",
+    "@vaadin/vaadin-themable-mixin": "git+https://git@github.com/vaadin/vaadin-themable-mixin.git#proto-lit-element",
     "lit-element": "^2.1.0",
     "lit-html": "^1.0.0"
   },
@@ -77,6 +81,7 @@
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-config-vaadin": "^0.1.4",
     "stylelint-processor-styled-components": "^1.6.0",
-    "webpack": "^4.29.6"
+    "webpack": "^4.29.6",
+    "typescript": "^3.4.5"
   }
 }
