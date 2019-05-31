@@ -1,13 +1,13 @@
 /**
-@license
-Copyright (c) 2019 Vaadin Ltd.
-This program is available under Apache License Version 2.0, available at https://vaadin.com/license/
-*/
-import {LitElement, html, css, customElement, Constructor} from 'lit-element';
+ * @license
+ * Copyright (c) 2019 Vaadin Ltd.
+ * This program is available under Apache License Version 2.0, available at https://vaadin.com/license/
+ */
 import {ElementMixin} from '@vaadin/vaadin-element-mixin';
 import {ThemableMixin} from '@vaadin/vaadin-themable-mixin';
+import {Constructor, css, customElement, html, LitElement} from 'lit-element';
 
-const Base:Constructor<HTMLElement> = ThemableMixin(ElementMixin(LitElement));
+const Base: Constructor<HTMLElement> = ThemableMixin(ElementMixin(LitElement));
 
 /**
  * `<vaadin-element>` is a Web Component.
@@ -34,7 +34,7 @@ export class VaadinElement extends Base {
     :host([hidden]) {
       display: none !important;
     }
-  `
+  `;
 
   render() {
     return html`

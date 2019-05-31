@@ -26,8 +26,7 @@
     "build": "tsc -p tsconfig.build.json",
     "lint": "npm-run-all --parallel lint:*",
     "lint:css": "stylelint *.js src/*.js demo/*.js theme/**/*.js test/*.js",
-    "lint:js": "eslint *.js src demo theme test",
-    "lint:polymer": "polymer lint --rules polymer-3 --input ./src/*.js ./theme/**/*.js",
+    "lint:ts": "tslint --project .",
     "pretest": "npm run build",
     "test": "cross-env BABEL_ENV=modern karma start",
     "test:modern": "cross-env BABEL_ENV=modern TEST_PLATFORM=sauce karma start",
@@ -81,7 +80,8 @@
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-config-vaadin": "^0.1.4",
     "stylelint-processor-styled-components": "^1.6.0",
-    "webpack": "^4.29.6",
-    "typescript": "^3.4.5"
+    "tslint": "^5.17.0",
+    "typescript": "^3.4.5",
+    "webpack": "^4.29.6"
   }
 }

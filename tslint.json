@@ -1,0 +1,10 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "member-access": false,
+    "quotemark": [
+      true,
+      "single"
+    ]
+  }
+}
