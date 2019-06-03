@@ -3956,9 +3956,10 @@ gemini-coverage@^2.0.0:
     fs-extra "^5.0.0"
     handlebars "~1.3.0"
 
-gemini-esm@web-padawan/gemini-esm#master:
+gemini-esm@^0.1.0:
   version "0.1.0"
-  resolved "https://codeload.github.com/web-padawan/gemini-esm/tar.gz/be81cb3fd4054ff8ebb6b714664d525ee47eb154"
+  resolved "https://registry.yarnpkg.com/gemini-esm/-/gemini-esm-0.1.0.tgz#a678918592f611d7c9e9a6e9a1e32c6787620a42"
+  integrity sha512-xISJTB040zL89+oA8h+2rF6v6bHCFTwyuDJGiWqu/Mg2l9hTLR8o1vcjKd3Gwoj3GHHxJiT10x//+ocPXBbQgg==
   dependencies:
     express "^4.16.4"
     express-transform-bare-module-specifiers "^1.0.2"
