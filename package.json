@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "description": "vaadin-element",
   "main": "vaadin-element.js",
+  "module": "vaadin-element.js",
   "repository": "vaadin/vaadin-element",
   "keywords": [
     "Vaadin",
     "vaadin-element",
     "web-components",
     "web-component",
-    "polymer"
+    "web component"
   ],
   "author": "Vaadin Ltd",
   "license": "Apache-2.0",
