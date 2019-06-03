@@ -4,7 +4,7 @@
   {
     "name": "Basics",
     "url": "element-basic-demos",
-    "src": "element-basic-demos.html",
+    "src": "element-basic-demos.js",
     "meta": {
       "title": "Vaadin Element Basics",
       "description": "",
@@ -13,11 +13,11 @@
   }
   ,
   {
-    "name": "Advanced Usage",
-    "url": "element-advanced-demos",
-    "src": "element-advanced-demos.html",
+    "name": "Styling",
+    "url": "element-styling-demos",
+    "src": "element-styling-demos.js",
     "meta": {
-      "title": "Vaadin Element Advanced Examples",
+      "title": "Vaadin Element Styling Examples",
       "description": "",
       "image": ""
      }
