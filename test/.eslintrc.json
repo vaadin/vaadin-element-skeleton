@@ -4,6 +4,7 @@
     "afterEach": false,
     "beforeEach": false,
     "it": false,
+    "gemini": false,
     "expect": false,
     "sinon": false,
     "MockInteractions": false
