@@ -28,6 +28,7 @@
     "lint:js": "eslint *.js src demo theme test",
     "lint:polymer": "polymer lint --rules polymer-3 --input ./src/*.js ./theme/**/*.js",
     "test": "karma start",
+    "test:sauce": "cross-env TEST_PLATFORM=sauce karma start",
     "prestart": "polymer analyze vaadin-* > analysis.json",
     "start": "polymer serve --npm --open",
     "preversion": "gulp version:update",
