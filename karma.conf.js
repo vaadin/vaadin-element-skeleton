@@ -102,25 +102,13 @@ module.exports = function(config) {
       'chrome_headless',
       'firefox_headless'
     ],
-    sauce: {
-      modern: [
-        'sl_safari_11',
-        'sl_edge_17',
-        'sl_ios_11'
-      ],
-      legacy: [
-        'sl_ie_11',
-        'sl_ios_9'
-      ]
-    }
+    sauce: [
+      'sl_safari_12',
+      'sl_edge_18',
+      'sl_ios_10',
+      'sl_ios_12'
+    ]
   };
 
-  const isSauce = process.env['TEST_PLATFORM'] === 'sauce';
-  const env = process.env['BABEL_ENV'] || 'modern';
-
-  if (isSauce) {
-    config.browsers = platformMap['sauce'][env];
-  } else {
-    config.browsers = platformMap['local'];
-  }
+  config.browsers = platformMap[process.env['TEST_PLATFORM'] === 'sauce' ? 'sauce' : 'local'];
 };
