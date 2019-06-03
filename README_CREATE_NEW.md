@@ -1,4 +1,4 @@
-### Creating a new Vaadin Element
+# Creating a new Vaadin component
 
 1. Clone this repo
 
@@ -11,22 +11,20 @@
 
 3. Rename the element
 
-        mv vaadin-element.html new-element-name.html
-        mv src/vaadin-element.html src/new-element-name.html
-        mv theme/lumo/vaadin-element.html theme/lumo/new-element-name.html
-        mv theme/material/vaadin-element.html theme/material/new-element-name.html
+        mv vaadin-element.js new-element-name.js
+        mv src/vaadin-element.js src/new-element-name.js
+        mv theme/lumo/vaadin-element.js theme/lumo/new-element-name.js
+        mv theme/material/vaadin-element.js theme/material/new-element-name.js
 
 4. Check that everything works all right
 
         npm install
-        bower install
-        polymer serve
+        npm start
 
   And check that everything works:
 
-  - http://localhost:8080/components/new-element-name/index.html
-  - http://localhost:8080/components/new-element-name/demo/index.html
-  - http://localhost:8080/components/new-element-name/test/index.html
+  - http://localhost:3000/components/@vaadin/new-element-name/
+  - http://localhost:3000/components/@vaadin/new-element-name/demo/
 
 5. Remove this README file since it is not needed any more.
 
