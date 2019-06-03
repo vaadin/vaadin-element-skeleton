@@ -103,9 +103,8 @@ module.exports = function(config) {
       'firefox_headless'
     ],
     sauce: [
-      'sl_safari_12',
+      'sl_safari_latest',
       'sl_edge_18',
-      'sl_ios_10',
       'sl_ios_12'
     ]
   };

@@ -12,17 +12,11 @@
       "-headless"
     ]
   },
-  "sl_safari_12": {
+  "sl_safari_latest": {
     "base": "SauceLabs",
     "browserName": "safari",
     "platform": "Mac 10.13",
-    "version": "12.1"
-  },
-  "sl_ios_10": {
-    "base": "SauceLabs",
-    "browserName": "iphone",
-    "platform": "OS X 10.12",
-    "version": "10.3"
+    "version": "latest"
   },
   "sl_ios_12": {
     "base": "SauceLabs",
