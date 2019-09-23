@@ -32,6 +32,7 @@
     "check": "npm-run-all --parallel check:*",
     "check:bower": "magi check-bower",
     "check:version": "magi check-version",
+    "check:docs": "magi check-events-docs",
     "lint": "npm-run-all --parallel lint:*",
     "lint:css": "stylelint *.html src/*.html demo/*.html theme/**/*.html test/*html",
     "lint:html": "eslint *.html src demo test --ext .html",
