@@ -1,73 +1,40 @@
-# &lt;vaadin-element&gt;
+# &lt;vaadin-component&gt;
 
-[&lt;vaadin-element&gt;](https://vaadin.com/components/vaadin-element) is a Web Component providing &lt;element-functionality&gt;, part of the [Vaadin components](https://vaadin.com/components).
+[&lt;vaadin-component&gt;](https://vaadin.com/components/vaadin-component) is a Web Component providing &lt;component-functionality&gt;, part of the [Vaadin components](https://vaadin.com/components).
 
-[Live Demo ↗](https://vaadin.com/components/vaadin-element/html-examples)
+[Live Demo ↗](https://vaadin.com/components/vaadin-component/html-examples)
 |
-[API documentation ↗](https://vaadin.com/components/vaadin-element/html-api)
+[API documentation ↗](https://vaadin.com/components/vaadin-component/html-api)
 
-[![npm version](https://badgen.net/npm/v/@vaadin/vaadin-element)](https://www.npmjs.com/package/@vaadin/vaadin-element)
-[![Bower version](https://badgen.net/github/release/vaadin/vaadin-element)](https://github.com/vaadin/vaadin-element/releases)
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/vaadin/vaadin-element)
-[![Build Status](https://travis-ci.org/vaadin/vaadin-element.svg?branch=master)](https://travis-ci.org/vaadin/vaadin-element)
-[![Coverage Status](https://coveralls.io/repos/github/vaadin/vaadin-element/badge.svg?branch=master)](https://coveralls.io/github/vaadin/vaadin-element?branch=master)
+[![npm version](https://badgen.net/npm/v/@vaadin/vaadin-component)](https://www.npmjs.com/package/@vaadin/vaadin-component)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/vaadin/vaadin-component)
+[![Build Status](https://travis-ci.org/vaadin/vaadin-element.svg?branch=master)](https://travis-ci.org/vaadin/vaadin-component)
+[![Coverage Status](https://coveralls.io/repos/github/vaadin/vaadin-component/badge.svg?branch=master)](https://coveralls.io/github/vaadin/vaadin-component?branch=master)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vaadin/web-components?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Published on Vaadin Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/vaadinvaadin-element)
-[![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/vaadin-element-directory-urlidentifier.svg)](https://vaadin.com/directory/component/vaadinvaadin-element)
-<!--
-```
-<custom-element-demo>
-  <template>
-    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="vaadin-element.html">
-    <next-code-block></next-code-block>
-  </template>
-</custom-element-demo>
-```
--->
+[![Published on Vaadin Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/vaadinvaadin-component)
+[![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/vaadin-element-directory-urlidentifier.svg)](https://vaadin.com/directory/component/vaadinvaadin-component)
+
 ```html
-<vaadin-element>
+<vaadin-component>
   ...
-</vaadin-element>
+</vaadin-component>
 ```
 
-[<img src="https://raw.githubusercontent.com/vaadin/vaadin-element/master/screenshot.png" width="200" alt="Screenshot of vaadin-element">](https://vaadin.com/components/vaadin-element)
+[<img src="https://raw.githubusercontent.com/vaadin/vaadin-component/master/screenshot.png" width="200" alt="Screenshot of vaadin-component">](https://vaadin.com/components/vaadin-component)
 
 
 ## Installation
 
-The Vaadin components are distributed as Bower and npm packages.
-Please note that the version range is the same, as the API has not changed.
-You should not mix Bower and npm versions in the same application, though.
-
-The converted ES Modules are only published on npm, not pushed to GitHub repositories.
-
-### Bower (HTML Imports compatible version)
-
-Install `vaadin-element`:
+Install `vaadin-component`:
 
 ```sh
-bower i vaadin/vaadin-element --save
-```
-
-Once installed, import it in your application:
-
-```html
-<link rel="import" href="bower_components/vaadin-element/vaadin-element.html">
-```
-
-### npm (ES Modules compatible version)
-
-Install `vaadin-element`:
-
-```sh
-npm i @vaadin/vaadin-element --save
+npm i @vaadin/vaadin-component --save
 ```
 
 Once installed, import it in your application:
 
 ```js
-import '@vaadin/vaadin-element/vaadin-element.js';
+import '@vaadin/vaadin-component/vaadin-component.js';
 ```
 
 ## Getting started
@@ -80,43 +47,38 @@ To use the Material theme, import the correspondent file from the `theme/materia
 
 - The component with the Lumo theme:
 
-  `theme/lumo/vaadin-element.html`
+  `theme/lumo/vaadin-component.js`
 
 - The component with the Material theme:
 
-  `theme/material/vaadin-element.html`
+  `theme/material/vaadin-component.js`
 
-- Alias for `theme/lumo/vaadin-element.html`:
+- Alias for `theme/lumo/vaadin-component.js`:
 
-  `vaadin-element.html`
+  `vaadin-component.js`
 
 
-## Running demos and tests in a browser
+## Running demos and API docs in a browser
 
-1. Fork the `vaadin-element` repository and clone it locally.
+1. Fork the `vaadin-component` repository and clone it locally.
 
-1. Make sure you have [npm](https://www.npmjs.com/) and [Bower](https://bower.io) installed.
+1. Make sure you have [npm](https://www.npmjs.com/) installed.
 
-1. When in the `vaadin-element` directory, run `npm install` and then `bower install` to install dependencies.
-
-1. Make sure you have [polymer-cli](https://www.npmjs.com/package/polymer-cli) installed globally: `npm i -g polymer-cli`.
+1. When in the `vaadin-component` directory, run `npm install` to install dependencies.
 
 1. Run `npm start`, browser will automatically open the component API documentation.
 
-1. You can also open demo or in-browser tests by adding **demo** or **test** to the URL, for example:
-
-  - http://127.0.0.1:3000/components/vaadin-element/demo
-  - http://127.0.0.1:3000/components/vaadin-element/test
-
-
 ## Running tests from the command line
 
-1. When in the `vaadin-element` directory, run `npm test`
+- When in the `vaadin-component` directory, run `npm test`
+
+- To debug tests in the browser, run `npm run test:debug`
 
 
 ## Following the coding style
 
-We are using [ESLint](http://eslint.org/) for linting JavaScript code. You can check if your code is following our standards by running `npm run lint`, which will automatically lint all `.js` files as well as JavaScript snippets inside `.html` files.
+We are using [ESLint](http://eslint.org/) for linting TypeScript code. You can check if your code is
+following our standards by running `npm run lint`, which will automatically lint all `.ts` files.
 
 
 ## Big Thanks
@@ -126,7 +88,7 @@ Cross-browser Testing Platform and Open Source <3 Provided by [Sauce Labs](https
 
 ## Contributing
 
-  To contribute to the component, please read [the guideline](https://github.com/vaadin/vaadin-core/blob/master/CONTRIBUTING.md) first.
+To contribute to the component, please read [the guideline](https://github.com/vaadin/vaadin-core/blob/master/CONTRIBUTING.md) first.
 
 
 ## License
